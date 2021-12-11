@@ -12,6 +12,7 @@
 		EFC221812764E21C00D8A6B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC221802764E21C00D8A6B5 /* Assets.xcassets */; };
 		EFC221842764E21C00D8A6B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC221832764E21C00D8A6B5 /* Preview Assets.xcassets */; };
 		EFC221932764E77500D8A6B5 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFC221922764E77500D8A6B5 /* Pacifico-Regular.ttf */; };
+		EFC221972764F35A00D8A6B5 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC221962764F35A00D8A6B5 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EFC221832764E21C00D8A6B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFC221852764E21C00D8A6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFC221922764E77500D8A6B5 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		EFC221962764F35A00D8A6B5 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				EFC2217C2764E21900D8A6B5 /* BrenoDevCardApp.swift */,
 				EFC2217E2764E21900D8A6B5 /* ContentView.swift */,
+				EFC221962764F35A00D8A6B5 /* InfoView.swift */,
 				EFC221802764E21C00D8A6B5 /* Assets.xcassets */,
 				EFC221852764E21C00D8A6B5 /* Info.plist */,
 				EFC221822764E21C00D8A6B5 /* Preview Content */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC2217F2764E21900D8A6B5 /* ContentView.swift in Sources */,
+				EFC221972764F35A00D8A6B5 /* InfoView.swift in Sources */,
 				EFC2217D2764E21900D8A6B5 /* BrenoDevCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
