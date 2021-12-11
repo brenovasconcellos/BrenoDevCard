@@ -13,7 +13,7 @@ struct ContentView: View {
             Color(red: 0.33, green: 0.52, blue: 0.67)
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                Text("Breno Vasconcellos")
+                Text("Breno Vasconcellos").font(Font.custom("Pacifico-Regular", size: 40)).bold().foregroundColor(.white)
             }
         }
     }
