@@ -11,6 +11,7 @@
 		EFC2217F2764E21900D8A6B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC2217E2764E21900D8A6B5 /* ContentView.swift */; };
 		EFC221812764E21C00D8A6B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC221802764E21C00D8A6B5 /* Assets.xcassets */; };
 		EFC221842764E21C00D8A6B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC221832764E21C00D8A6B5 /* Preview Assets.xcassets */; };
+		EFC221932764E77500D8A6B5 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFC221922764E77500D8A6B5 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EFC221802764E21C00D8A6B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFC221832764E21C00D8A6B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFC221852764E21C00D8A6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC221922764E77500D8A6B5 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 		EFC221702764E21900D8A6B5 = {
 			isa = PBXGroup;
 			children = (
+				EFC221912764E75500D8A6B5 /* font */,
 				EFC2217B2764E21900D8A6B5 /* BrenoDevCard */,
 				EFC2217A2764E21900D8A6B5 /* Products */,
 			);
@@ -67,6 +70,14 @@
 				EFC221832764E21C00D8A6B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFC221912764E75500D8A6B5 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				EFC221922764E77500D8A6B5 /* Pacifico-Regular.ttf */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC221932764E77500D8A6B5 /* Pacifico-Regular.ttf in Resources */,
 				EFC221842764E21C00D8A6B5 /* Preview Assets.xcassets in Resources */,
 				EFC221812764E21C00D8A6B5 /* Assets.xcassets in Resources */,
 			);
